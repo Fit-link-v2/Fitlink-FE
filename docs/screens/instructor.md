@@ -33,6 +33,8 @@
 | 변형 | 근거 AC | 와이어프레임 | 상태 | 시안 | 구현 |
 |---|---|---|---|---|---|
 | `I-03/기본` | PRD-0001 AC 2.1.5 · PRD-0001 AC 2.1.2 | [54:174](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=54-174) | 제안 중 (DEC-0009) | | |
+| `I-03/매주 반복` | 없음 | [63:64](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=63-64) | 제안 중 (회의 안건: 일회성 수업 추가) | | |
+| `I-03/한 번만` | 없음 | [63:128](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=63-128) | 제안 중 (회의 안건: 일회성 수업 추가) | | |
 
 ## I-04 슬롯 상세
 

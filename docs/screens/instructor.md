@@ -72,6 +72,8 @@
 | `I-07/회원 줄/미개봉` | PRD-0001 AC 5.1.5 | [54:580](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=54-580) | 제안 중 (DEC-0009) | | |
 | `I-07/회원 줄/개봉` | PRD-0001 AC 5.1.5 | [54:593](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=54-593) | 제안 중 (DEC-0009) | | |
 | `I-07/회원 줄/수강 종료` | PRD-0001 AC 3.3.1 | [54:605](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=54-605) |  | | |
+| `I-07/회원 줄/월 정액 · A안 (남은 횟수)` | 없음 (PRD-0001 열린 질문) | [122:4](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=122-4) | 택1. B안과 둘 중 하나만 구현 (BE 회의에서 결정) | | |
+| `I-07/회원 줄/월 정액 · B안 (등록 내용)` | 없음 (PRD-0001 열린 질문) | [122:27](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=122-27) | 택1. A안과 둘 중 하나만 구현 (BE 회의에서 결정) | | |
 
 ## I-08 회원 추가 시트
 

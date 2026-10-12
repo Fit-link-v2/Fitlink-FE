@@ -12,30 +12,40 @@
 
 위에서 아래로 상단 → 내 예약 → 날짜 스트립 → 수업 → 지난 기록.
 
+상단은 이름 아래에 수강권마다 카드 하나를 둔다. 여러 개면 합산하지 않고 겹쳐 쌓고, 누르면 펼친다 (DEC-0010).
+
 | 변형 | 근거 AC | 와이어프레임 | 상태 | 시안 | 구현 |
 |---|---|---|---|---|---|
 | `M-01/기본` | PRD-0002 AC 1.2.1 | [53:18](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-18) |  | | |
-| `M-01/수강권 없음` | PRD-0002 AC 2.1.3 · PRD-0002 AC 2.1.4 | [53:118](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-118) |  | | |
-| `M-01/상단/횟수권 1장` | PRD-0002 AC 2.1.1 | [53:165](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-165) |  | | |
-| `M-01/상단/횟수권 여러 장` | PRD-0002 AC 2.1.1 | [53:174](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-174) |  | | |
-| `M-01/상단/월 정액` | PRD-0002 AC 2.1.2 | [53:184](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-184) | 제안 중 (DEC-0010) | | |
-| `M-01/상단/월 정액 시작 전` | 없음 | [53:195](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-195) | 제안 중 (DEC-0010) | | |
-| `M-01/상단/수강권 없음` | PRD-0002 AC 2.1.3 | [53:207](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-207) |  | | |
+| `M-01/수강권 없음` | PRD-0002 AC 2.1.10 · PRD-0002 AC 2.1.11 | [53:118](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-118) | 제안 중 (DEC-0010) | | |
+| `M-01/이번 구간 소진 · A안 (상단 카드만)` | PRD-0003 AC 1.1.5 · PRD-0002 AC 2.1.9 | [114:32](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=114-32) | 택1. B안과 둘 중 하나만 구현 (BE 회의에서 결정) | | |
+| `M-01/이번 구간 소진 · B안 (날짜별 남은 횟수)` | 없음 (FE 제안) | [116:4](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=116-4) | 택1. A안과 둘 중 하나만 구현 (BE 회의에서 결정) | | |
+| `M-01/상단/횟수권 1장` | PRD-0002 AC 2.1.5 | [53:165](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-165) | 제안 중 (DEC-0010) | | |
+| `M-01/상단/횟수권 여러 장` | PRD-0002 AC 2.1.8 | [53:174](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-174) | 제안 중 (DEC-0010) | | |
+| `M-01/상단/횟수권 여러 장 · 펼침` | PRD-0002 AC 2.1.8 · PRD-0002 AC 2.1.9 | [99:56](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=99-56) | 제안 중 (DEC-0010) | | |
+| `M-01/상단/월 정액` | PRD-0002 AC 2.1.6 | [53:184](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-184) | 제안 중 (DEC-0010) | | |
+| `M-01/상단/월 정액 0회 남음` | PRD-0002 AC 2.1.9 | [114:12](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=114-12) | 제안 중 (DEC-0010) | | |
+| `M-01/상단/월 정액 여러 개 · 펼침` | PRD-0002 AC 2.1.6 · PRD-0002 AC 2.1.8 | [99:44](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=99-44) | 제안 중 (DEC-0010) | | |
+| `M-01/상단/월 정액 여러 개` | PRD-0002 AC 2.1.8 | | 미작성. 접힌 스택의 맨 앞이 월 정액이면 4줄이 된다 | | |
+| `M-01/상단/월 정액 시작 전` | PRD-0002 AC 2.1.7 | [53:195](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-195) | 제안 중 (DEC-0010) | | |
+| `M-01/상단/횟수권 시작 전` | PRD-0002 AC 2.1.7 | [99:32](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=99-32) | 제안 중 (DEC-0010) | | |
+| `M-01/상단/잔여 0회` | PRD-0002 AC 2.1.9 | [99:20](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=99-20) | 제안 중 (DEC-0010) | | |
+| `M-01/상단/수강권 없음` | PRD-0002 AC 2.1.10 · PRD-0002 AC 2.1.11 | [53:207](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-207) | 제안 중 (DEC-0010) | | |
 | `M-01/날짜 칩/기본` | PRD-0002 AC 3.1.2 | [53:217](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-217) |  | | |
 | `M-01/날짜 칩/선택` | PRD-0002 AC 3.1.3 | [53:227](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-227) |  | | |
 | `M-01/날짜 칩/만석` | PRD-0002 AC 3.1.2 | [53:237](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-237) |  | | |
 | `M-01/날짜 칩/휴무` | PRD-0002 AC 3.1.2 | [53:247](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-247) |  | | |
-| `M-01/수업 줄/자리 있음` | PRD-0002 AC 3.2.2 · PRD-0003 AC 1.1.1 | [53:259](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-259) |  | | |
-| `M-01/수업 줄/만석` | PRD-0002 AC 3.2.2 · PRD-0004 AC 1.1.1 | [53:271](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-271) |  | | |
+| `M-01/수업 줄/자리 있음` | PRD-0002 AC 3.2.2 · PRD-0003 AC 1.1.5 | [53:259](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-259) | 제안 중 (DEC-0010) | | |
+| `M-01/수업 줄/만석` | PRD-0002 AC 3.2.2 · PRD-0004 AC 1.1.7 | [53:271](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-271) | 제안 중 (DEC-0010) | | |
 | `M-01/수업 줄/예약함` | PRD-0003 AC 1.1.4 | [53:283](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-283) |  | | |
-| `M-01/수업 줄/잔여 없음` | PRD-0003 AC 1.1.2 | [53:296](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-296) |  | | |
-| `M-01/수업 줄/한도 소진` | PRD-0003 AC 1.1.2 | [53:309](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-309) | 제안 중 (DEC-0010) | | |
-| `M-01/수업 줄/수강권 없음` | PRD-0003 AC 1.1.1 | [53:324](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-324) |  | | |
-| `M-01/수업 줄/덮는 수강권 없음` | 없음 | [53:337](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-337) | 제안 중 (DEC-0010) | | |
+| `M-01/수업 줄/잔여 없음` | PRD-0003 AC 1.1.6 | [53:296](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-296) | 제안 중 (DEC-0010) | | |
+| `M-01/수업 줄/한도 소진` | PRD-0003 AC 1.1.6 | [53:309](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-309) | 제안 중 (DEC-0010) | | |
+| `M-01/수업 줄/수강권 없음` | PRD-0003 AC 1.1.6 | [53:324](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-324) | 폐기 예정 (DEC-0010). 사유 문구가 `덮는 수강권 없음`과 같아졌다 | | |
+| `M-01/수업 줄/덮는 수강권 없음` | PRD-0003 AC 1.1.5 · PRD-0003 AC 1.1.6 | [53:337](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-337) | 제안 중 (DEC-0010) | | |
 | `M-01/수업 줄/지난 수업` | PRD-0002 AC 3.2.3 | [53:351](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-351) |  | | |
 | `M-01/수업 줄/대기 중` | PRD-0004 AC 2.1.3 | [53:364](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-364) |  | | |
 | `M-01/수업 줄/자리 남` | PRD-0004 AC 3.1.1 | [53:376](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-376) |  | | |
-| `M-01/수업 줄/대기 불가` | PRD-0004 AC 1.1.5 | [53:389](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-389) |  | | |
+| `M-01/수업 줄/대기 불가` | PRD-0004 AC 1.1.8 | [53:389](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-389) | 제안 중 (DEC-0010) | | |
 | `M-01/내 예약 줄/기본` | PRD-0003 AC 4.1.1 · PRD-0003 AC 4.1.2 | [53:400](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-400) |  | | |
 | `M-01/내 예약 줄/무료 취소 안내` | PRD-0005 AC 3.2.1 | [53:413](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-413) |  | | |
 | `M-01/내 예약 줄/마감 후` | PRD-0005 AC 3.2.2 | [53:425](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-425) |  | | |
@@ -54,8 +64,8 @@
 
 | 변형 | 근거 AC | 와이어프레임 | 상태 | 시안 | 구현 |
 |---|---|---|---|---|---|
-| `M-02/확인` | PRD-0003 AC 1.2.1 · PRD-0003 AC 1.2.2 | [53:523](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-523) |  | | |
-| `M-02/확인 · 월 정액` | 없음 | [53:551](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-551) | 제안 중 (DEC-0010) | | |
+| `M-02/확인` | PRD-0003 AC 1.2.3 · PRD-0003 AC 1.2.2 | [53:523](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-523) | 제안 중 (DEC-0010) | | |
+| `M-02/확인 · 월 정액` | PRD-0003 AC 1.2.4 | [53:551](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-551) | 제안 중 (DEC-0010) | | |
 | `M-02/처리 중` | PRD-0003 AC 1.4.2 | [53:581](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-581) |  | | |
 | `M-02/자리 참` | PRD-0003 AC 3.1 | [53:609](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-609) |  | | |
 | `M-02/자리 참 · 대기 제안` | PRD-0004 AC 5.1.1 | [53:634](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-634) |  | | |

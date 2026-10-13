@@ -39,7 +39,7 @@
 | `M-01/수업 줄/예약함` | PRD-0003 AC 1.1.4 | [53:283](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-283) |  | | |
 | `M-01/수업 줄/잔여 없음` | PRD-0003 AC 1.1.6 | [53:296](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-296) |  | | |
 | `M-01/수업 줄/한도 소진` | PRD-0003 AC 1.1.6 | [53:309](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-309) |  | | |
-| `M-01/수업 줄/수강권 없음` | PRD-0003 AC 1.1.6 | [53:324](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-324) | 폐기 예정 (DEC-0010). 사유 문구가 `덮는 수강권 없음`과 같아졌다 | | |
+| `M-01/수업 줄/수강권 없음` | PRD-0003 AC 1.1.6 | [53:324](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-324) | 폐기 (DEC-0010). 사유 문구가 `덮는 수강권 없음`과 같아졌다 | | |
 | `M-01/수업 줄/덮는 수강권 없음` | PRD-0003 AC 1.1.5 · PRD-0003 AC 1.1.6 | [53:337](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-337) |  | | |
 | `M-01/수업 줄/지난 수업` | PRD-0002 AC 3.2.3 | [53:351](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-351) |  | | |
 | `M-01/수업 줄/대기 중` | PRD-0004 AC 2.1.3 | [53:364](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=53-364) |  | | |

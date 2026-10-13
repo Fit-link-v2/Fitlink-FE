@@ -65,13 +65,17 @@
 
 ## I-07 회원 목록
 
+업데이트: [2026-10-12] 월 정액 회원 줄에 남은 횟수 · 등록 내용 두 안 추가 (DEC-0010)
+업데이트: [2026-10-13] 월 정액 회원 줄은 남은 횟수 표시로 확정. 기본 변형의 근거 AC 갱신 (DEC-0010)
+
 | 변형 | 근거 AC | 와이어프레임 | 상태 | 시안 | 구현 |
 |---|---|---|---|---|---|
-| `I-07/기본` | PRD-0001 AC 5.1.1 · PRD-0001 AC 5.1.5 | [54:472](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=54-472) | 제안 중 (DEC-0009) | | |
+| `I-07/기본` | PRD-0001 AC 5.1.1 · PRD-0001 AC 5.1.5 · PRD-0001 AC 5.1.6 | [54:472](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=54-472) | 제안 중 (DEC-0009) | | |
 | `I-07/미개봉 없음` | PRD-0001 AC 5.1.4 | [54:524](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=54-524) |  | | |
 | `I-07/회원 줄/미개봉` | PRD-0001 AC 5.1.5 | [54:580](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=54-580) | 제안 중 (DEC-0009) | | |
 | `I-07/회원 줄/개봉` | PRD-0001 AC 5.1.5 | [54:593](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=54-593) | 제안 중 (DEC-0009) | | |
 | `I-07/회원 줄/수강 종료` | PRD-0001 AC 3.3.1 | [54:605](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=54-605) |  | | |
+| `I-07/회원 줄/월 정액` | PRD-0001 AC 5.1.6 | [122:4](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=122-4) |  | | |
 
 ## I-08 회원 추가 시트
 
@@ -87,21 +91,34 @@
 
 ## I-10 회원 상세
 
+업데이트: [2026-10-12] 수강권 카드 표시와 근거 AC 갱신. 월 정액 4주마다 · 시작 전 · 만료 변형 추가 (DEC-0010)
+업데이트: [2026-10-13] 기본 · 수강권 카드 변형의 제안 중 상태 해제 (DEC-0010)
+
 | 변형 | 근거 AC | 와이어프레임 | 상태 | 시안 | 구현 |
 |---|---|---|---|---|---|
-| `I-10/기본` | PRD-0001 AC 3.2.3 · PRD-0003 AC 5.2.1 · PRD-0001 AC 4.2.3 | [54:676](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=54-676) |  | | |
+| `I-10/기본` | PRD-0001 AC 3.2.19 · PRD-0003 AC 5.2.3 · PRD-0001 AC 4.2.3 | [54:676](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=54-676) |  | | |
 | `I-10/수강 종료됨` | PRD-0001 AC 3.3.1 · PRD-0001 AC 3.3.3 | [54:718](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=54-718) |  | | |
-| `I-10/수강권 카드/횟수권` | PRD-0001 AC 3.2.1 · PRD-0001 AC 3.2.3 | [54:773](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=54-773) |  | | |
+| `I-10/수강권 카드/횟수권` | PRD-0001 AC 3.2.1 · PRD-0001 AC 3.2.19 | [54:773](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=54-773) |  | | |
 | `I-10/수강권 카드/만료` | PRD-0001 AC 3.2.4 | [54:782](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=54-782) |  | | |
-| `I-10/수강권 카드/월 정액` | PRD-0001 AC 3.2.6 | [54:788](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=54-788) | 미작성 · 제안 중 (DEC-0010) | | |
+| `I-10/수강권 카드/월 정액 만료` | PRD-0001 AC 3.2.4 · PRD-0001 AC 3.2.20 | [115:177](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=115-177) |  | | |
+| `I-10/수강권 카드/월 정액` | PRD-0001 AC 3.2.19 · PRD-0001 AC 3.2.20 · PRD-0003 AC 5.2.3 | [54:788](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=54-788) |  | | |
+| `I-10/수강권 카드/월 정액 · 4주마다` | PRD-0001 AC 3.2.19 · PRD-0001 AC 3.2.20 · PRD-0003 AC 5.2.3 | [115:148](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=115-148) |  | | |
+| `I-10/수강권 카드/월 정액 시작 전` | PRD-0001 AC 3.2.20 · PRD-0003 AC 5.2.3 | [100:22](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=100-22) |  | | |
 
 ## I-11 수강권 등록 시트
+
+종류를 먼저 고르고, 고른 종류의 입력만 보인다. 월 정액은 4주 단위로 등록한다 (DEC-0011).
+
+업데이트: [2026-10-12] 종류 선택과 월 정액 4주 단위 입력 반영. 기간 겹침 · 다른 종류 등록 불가 · 저장 거부 변형 갱신 (DEC-0011)
 
 | 변형 | 근거 AC | 와이어프레임 | 상태 | 시안 | 구현 |
 |---|---|---|---|---|---|
 | `I-11/횟수권` | PRD-0001 AC 3.2.1 · PRD-0001 AC 3.2.5 | [54:803](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=54-803) |  | | |
-| `I-11/월 정액` | PRD-0001 AC 3.2.5 · PRD-0001 AC 3.2.6 | [54:842](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=54-842) | 미작성 | | |
-| `I-11/기간 겹침` | PRD-0001 AC 3.2.10 | [54:855](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=54-855) | 미작성 | | |
+| `I-11/월 정액` | PRD-0001 AC 3.2.5 · PRD-0001 AC 3.2.12 · PRD-0001 AC 3.2.13 · PRD-0001 AC 3.2.14 | [100:47](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=100-47) |  | | |
+| `I-11/월 정액 · 4주마다` | PRD-0001 AC 3.2.12 · PRD-0001 AC 3.2.13 · PRD-0001 AC 3.2.14 | [115:4](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=115-4) |  | | |
+| `I-11/기간 겹침` | PRD-0001 AC 3.2.10 | [100:79](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=100-79) |  | | |
+| `I-11/다른 종류 등록 불가` | PRD-0001 AC 3.2.15 · PRD-0001 AC 3.2.16 | [100:111](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=100-111) |  | | |
+| `I-11/저장 거부` | PRD-0001 AC 3.2.17 · PRD-0001 AC 3.2.15 | [115:75](https://www.figma.com/design/DKEXqSnsZu1S4pTIzHdz32/Fit-link-Wireframe?node-id=115-75) |  | | |
 
 ## I-12 재발급 확인 시트
 
